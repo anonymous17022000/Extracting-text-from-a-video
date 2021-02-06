@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 read = easyocr.Reader(['en'])
 from google.colab.patches import cv2_imshow
-cap = cv2.VideoCapture('/content/Introduction to data structures (online-video-cutter.com).mp4')
+cap = cv2.VideoCapture('/content/Introduction to data structures lecture.mp4')
 l = []
 while cap.isOpened():
   try:
